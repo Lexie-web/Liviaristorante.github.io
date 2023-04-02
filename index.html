@@ -10,42 +10,146 @@
   </head>
   <body>
     <header>
-      <h1>Les bases de CSS</h1>
+        <h1> Livia ristorante<span>&#169;</span></h1>
     </header>
-
+    <br>
     <main>
-      <div class="flexbox">
-        <h2>Flexbox</h2>
-        <ul>
-          <li>boite 1</li>
-          <li>boite 2</li>
-          <li>boite 3</li>
-        </ul>
-      </div>
-
-      <div class="grid">
-        <h2>Grid</h2>
-        <div class="grid-container">
-          <img src="plum.jpg" alt="logo css" />
-
-          <form action="">
-            <input type="text" id="firstname" placeholder="Prénom" />
-            <input type="text" id="surname" placeholder="Nom" />
-            <textarea
-              cols="30"
-              rows="10"
-              placeholder="Ici votre message"
-            ></textarea>
-            <input type="submit" value="Valider" id="btn-submit" />
-          </form>
+        <div class="flexbox"> 
+        <img src="italian-g6011cc466_1920.jpg" class="image-ronde">
         </div>
-      </div>
+        <br> 
+        <h2>Premiere experience</h2>
+        <br>
+        <p>Voici mes premiers pas sur <strong>HTML</strong> et <strong>CSS</strong>. <p>Vous trouverez tout ce que j'ai pu apprendre sur quelques jours afin de maitriser un maximum de termes techniques pour la formation.</p>
+        <p>J'espere que cet exemple vous comvaincra de ma motivation pour reussir avec succes cette formation.</p>
+        </p>
+        <br>   
+        <h2> Carnet de recettes </h2>
+        <br>
+        <style>
+            .image-ronde{
+            width: 200px; height: 200px; border: none;
+            border-radius: 60px;
+            display: flex;
+            justify-content: center;
+            }
+        
+        </style>
+        <div style="justify-content: center;" style="display: flex;">
 
-      <div class="absolute">
-        <h2>Absolute</h2>
-        <span id="circle1"></span>
-        <span id="circle2"></span>
-      </div>
+        <div><img src="pastas-6060096_1920.jpg" class="image-ronde"  style="float:left";></div>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <div><img src="pasta-5977888_1920.jpg" class="image-ronde" style="float: left;"></div>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <div><img src="food-5981250_1920.jpg" class="image-ronde"  style="float:left" /></div>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <div><img src="pizza-g79eb9149c_1920.jpg" class="image-ronde"  style="float:left" /></div>
+        </div>
+    
+    <section>
+        <br>
+        <div>
+            <h2>Nos horaires</h2>   
+        </div>
+        <br> 
+        <div>
+            <ul>
+                <li>Jeudi</li>
+                <li>Vendredi</li>
+                <li>Samedi</li>
+            </ul>
+            <ol>
+                <li>12h-15h/19h-23h</li>
+                <li>12h-15h/19h-23h</li>
+                <li>12h-15h/19h-23h</li>
+            </ol>
+        </div>
+        <br> 
+        <div>
+            <h2>Produits de saison</h2>
+        </div>
+        <br>
+        <div>
+            <table border="1" width="50%">
+                <!-- LEGENDE -->
+                <caption> Calendrier de saison </caption>
+                <br>
+                <!-- En tete -->
+                <thead>
+                    <tr>
+                        <th>Fruits</th>
+                        <th>Legumes</th>
+                    </tr>
+                </thead>
+                <!-- Corp du tableau -->
+                <tbody>
+                    <tr>
+                        <td>Ananas</td>
+                        <td>Avocat</td>
+                    </tr>
+                    <tr>
+                        <td>Banane</td>
+                        <td>Betterave</td>
+                    </tr>
+                    <tr>
+                        <td>Pomme</td>
+                        <td>Carotte</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br> 
+        <div>
+            <h2>Notre carte </h2>
+        </div>
+        <br>
+        <div>
+            <a href="https:/www.toptal.com/designers/htmlarrows/symbols/" target="_blank">Icone en HTML</HTML></a>
+        </div>
+        <br> 
+        <div>
+            <h2>Notre savoir faire en image</h2>
+        </div>
+        <br>
+        <div>
+            <video src="pates-33257.mp4" height="400" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+    <div class="grid">
+    <section>
+        <div class="grid-container">
+            <div>
+            <!-- Formulaire -->
+             <h2>Formulaire</h2>
+            </div>
+            <br>
+            <div>
+            <form action="">
+                <input id="name" type="text" placeholder="Entrez votre nom">
+                <input id="name" type="text" placeholder="Entrez votre prenom">
+                <textarea cols="30" rows="10" placeholder="Entrez votre demande ici"></textarea>
+                <input type="submit" value="Valider" id="btn-submit">
+                <br>
+            </div>
+        </div>      
+            
+            <!-- INPUT CHECKBOX -->
+            
+            <!-- Mail et envoi de fichier -->
+            <footer>
+                <br>
+                <p><a href="mailto:fs@gmail.com"> Contactez-nous </a>
+                </p> 
+                <br>
+                <p><a href="NOTICE.TEXT"Download="nom-du-fichier">Telecharger la newsletter</a> </p> 
+            </footer>
+        </div>
+        </form>
+    </section>
     </main>
-  </body>
+</body>
 </html>
